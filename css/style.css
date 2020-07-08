@@ -33,3 +33,21 @@
   color: white;
   border-radius: 35px;
 }
+
+.card{
+  border: none;
+  padding: 25px;
+  background-color: #F8FFFB;
+  border-radius: 10px;
+}
+
+.card:hover{
+  box-shadow: 7px 7px 14px lightgrey;
+}
+
+.card-img-top{
+  padding: 20px 20px;
+  margin: auto;
+  width: auto;
+  height: 100px;
+}

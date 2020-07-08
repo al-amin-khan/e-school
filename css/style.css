@@ -1,5 +1,13 @@
-.poppin-lang{
+body{
   font-family: 'Poppins', sans-serif;
+}
+small img{
+  height: 40px;
+  width: 40px;
+  margin-top: -6px;
+}
+
+.larger-font{
   font-weight: bold;
   font-size: 3rem;
 }
@@ -34,20 +42,47 @@
   border-radius: 35px;
 }
 
-.card{
+.btn-green:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.gap-between{
+  padding-top: 50px;
+}
+
+.card-banner{
   border: none;
   padding: 25px;
   background-color: #F8FFFB;
   border-radius: 10px;
 }
 
-.card:hover{
+.card-banner:hover{
+  background-color: white;
   box-shadow: 7px 7px 14px lightgrey;
 }
 
-.card-img-top{
+.card-img-custom{
   padding: 20px 20px;
   margin: auto;
   width: auto;
   height: 100px;
+}
+
+.card{
+  border: none;
+  box-shadow: 3px 3px 15px lightgrey;
+}
+
+.card img{
+  padding: 10px;
+  margin-right: -10px;
+}
+
+.card-footer{
+  background-color: white;
+  border-top: none;
+  padding-right: 30px;
+  margin: 0;
 }

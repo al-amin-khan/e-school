@@ -2,9 +2,14 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 small img{
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   margin-top: -6px;
+}
+
+footer{
+  background-color: #282531;
+  color: whitesmoke;
 }
 
 .larger-font{
@@ -53,7 +58,7 @@ small img{
 
 .card-banner{
   border: none;
-  padding: 25px;
+  padding: 20px;
   background-color: #F8FFFB;
   border-radius: 10px;
 }
@@ -64,20 +69,15 @@ small img{
 }
 
 .card-img-custom{
-  padding: 20px 20px;
-  margin: auto;
-  width: auto;
   height: 100px;
+  width: auto;
+  padding: 20px;
+  margin: auto;
 }
 
 .card{
   border: none;
   box-shadow: 3px 3px 15px lightgrey;
-}
-
-.card img{
-  padding: 10px;
-  margin-right: -10px;
 }
 
 .card-footer{

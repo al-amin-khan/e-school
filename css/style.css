@@ -1,0 +1,35 @@
+.poppin-lang{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.nav-bar a{
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+.logo{
+  width: 200px;
+  height: auto;
+}
+
+.bg-light-green{
+  background-color: #F0FFF0;
+}
+
+.carousel-item{
+  padding: 20px 30px;
+}
+
+.text-green{
+  color: #21B573;
+}
+
+.btn-green{
+  text-decoration: none;
+  padding: 8px 20px;
+  background-color: #21B573;
+  color: white;
+  border-radius: 35px;
+}
